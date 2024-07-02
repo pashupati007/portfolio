@@ -199,7 +199,7 @@ span{
     position: relative;
 }
 .text-animation span::before{
-    content: "Web Developer";
+    content: "Frontend Developer";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -225,16 +225,20 @@ span{
         content: "Frontend Developer";
     }
     21%,40%{
-        content: "Web Designer";
+        content: "Frontend Developer";
+        /* content: "Web Designer"; */
     }
     41%,60%{
-        content: "UI / UX Designer";
+        content: "Frontend Developer";
+        /* content: "UI / UX Designer"; */
     }
     61%,80%{
-        content: "Web Developer";
+        content: "Frontend Developer";
+        /* content: "Frontend Developer"; */
     }
     81%,100%{
-        content:"SEO Specialist"
+        content: "Frontend Developer";
+        /* content:"SEO Specialist" */
     }
 }
 
