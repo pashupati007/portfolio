@@ -3,6 +3,7 @@ let navbar = document.querySelector('.navbar');
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
+document.getElementById("year").textContent = new Date().getFullYear();
 
 window.onscroll = () => {
 
